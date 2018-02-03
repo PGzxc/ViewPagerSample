@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pgzxc.viewpagersample.MainActivity">
+
+    <Button
+        android:id="@+id/btn_clipChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_clipChildren" />
+
+    <Button
+        android:id="@+id/btn_clipViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_clipViewPager" />
+    <Button
+        android:id="@+id/btn_clipPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_clipPad" />
+    <Button
+        android:id="@+id/btn_clipCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_clipCardView" />
+</LinearLayout>
